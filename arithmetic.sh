@@ -1,4 +1,5 @@
 #!/bin/bash -x
+echo "New Heading"
 read -p "Enter first number" a
 read -p "enter second number" b
 read -p "Enter third number" c
