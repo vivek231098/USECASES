@@ -8,3 +8,9 @@ second=$((($a*$b)+$c))
 third=$(($c+($a/$b)))
 fourth=$((($a%$b)+$c))
 
+decare -A Arithmetic
+Arithmetic[1]=$first
+Arithmetic[2]=$second
+Arithmetic[3]=$third
+Arithmetic[4]=$fourth
+
