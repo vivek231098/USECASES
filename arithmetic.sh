@@ -14,3 +14,7 @@ Arithmetic[2]=$second
 Arithmetic[3]=$third
 Arithmetic[4]=$fourth
 
+for (( i=1; i<=${#Arithmetic[@]}; i++ ))
+do
+	array[$i]=${Arithmetic[$i]}
+done
