@@ -18,3 +18,6 @@ for (( i=1; i<=${#Arithmetic[@]}; i++ ))
 do
 	array[$i]=${Arithmetic[$i]}
 done
+
+echo "Descending order"
+echo ${array[a]} | sort -nr
