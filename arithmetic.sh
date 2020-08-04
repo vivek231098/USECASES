@@ -5,3 +5,4 @@ read -p "Enter third number" c
 
 first=$(($a+($b*$c)))
 second=$((($a*$b)+$c))
+third=$(($c+($a/$b)))
