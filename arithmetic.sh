@@ -2,6 +2,7 @@
 echo "Sorting Conflict"
 echo "New Heading"
 echo "Vivek"
+echo "GOKUL :)"
 read -p "Enter first number" a
 read -p "enter second number" b
 read -p "Enter third number" c
