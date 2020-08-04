@@ -21,3 +21,6 @@ done
 
 echo "Descending order"
 echo ${array[a]} | sort -nr
+
+echo "Ascending Order"
+printf "%s\n" "${array[@]}" | sort -n
